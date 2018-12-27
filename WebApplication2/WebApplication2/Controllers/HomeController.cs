@@ -63,9 +63,15 @@ namespace WebApplication2.Controllers
             return View();
         }
 
-            public IActionResult About()
+            public IActionResult About(string latitude, string longitude, string osName, string osVersion, string browserName, string browserVersion, string navigatorUserAgent, string navigatorAppVersion, string navigatorPlatform, string navigatorVendor)
         {
-            ViewData["Message"] = "You have been logged";
+            
+            string connectionstring = "Server=localhost\\MSSQLSERVER01;Database=master;Trusted_Connection=True;";
+            SqlConnection connection = new SqlConnection(connectionstring);
+            connection.Open();
+            SqlCommand com = new SqlCommand("insert into tbl_ClockIn(fld_firstName,fld_lastName,fld_personalIDnumber,fld_osName,fld_osVersion,fld_browserName,fld_browserVersion,fld_navigatorUserAgent,fld_navigatorAppVersion,fld_navigatorPlatform,fld_navigatorVendor,fld_latitube,fld_longitude,fld_dateTime) values('', '', '', '"+osName+ "', '" + osVersion + "', '" + browserName + "', '" + browserVersion + "', '" + navigatorUserAgent + "', '" + navigatorAppVersion + "', '" + navigatorPlatform + "', '" + navigatorVendor + "', '" + latitude + "', '" + longitude+"', '"+"'); ", connection);
+            com.ExecuteScalar();
+            ViewData["Message"] = com.ExecuteScalar()+"it worked";
 
             return View();
         }

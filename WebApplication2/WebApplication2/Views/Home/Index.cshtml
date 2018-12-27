@@ -187,8 +187,15 @@
 
 
 <form asp-controller="Home" asp-action="About" method="POST">
-    <input name="valueINeed" type="text">
+    <input name="latitude" type="text">
+    <input name="longitude" type="text">
+    <input name="osName" type="text">
+    <input name="osVersion" type="text">
+    <input name="browserName" type="text">
+    <input name="browserVersion" type="text">
+    <input name="navigatorUserAgent" type="text">
+    <input name="navigatorAppVersion" type="text">
+    <input name="navigatorPlatform" type="text">
+    <input name="navigatorVendor" type="text">
     <input type="submit" value="View Report" />
 </form> 
-
-<a asp-area="" asp-controller="Home" asp-action="About">About</a>
