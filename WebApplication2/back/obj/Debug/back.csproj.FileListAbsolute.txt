@@ -1,0 +1,99 @@
+C:\Users\16017131\Downloads\16017131-Andre de Villiers-programming assigmnet1 1\16017131-Andre de Villiers-programming assigmnet1 1\ass1\ass1\back\bin\Debug\back.dll
+C:\Users\16017131\Downloads\16017131-Andre de Villiers-programming assigmnet1 1\16017131-Andre de Villiers-programming assigmnet1 1\ass1\ass1\back\bin\Debug\back.pdb
+C:\Users\16017131\Downloads\16017131-Andre de Villiers-programming assigmnet1 1\16017131-Andre de Villiers-programming assigmnet1 1\ass1\ass1\back\obj\Debug\back.dll
+C:\Users\16017131\Downloads\16017131-Andre de Villiers-programming assigmnet1 1\16017131-Andre de Villiers-programming assigmnet1 1\ass1\ass1\back\obj\Debug\back.pdb
+C:\Users\16017131\Downloads\16017131-Andre de Villiers-programming assigmnet1 1\16017131-Andre de Villiers-programming assigmnet1 1\ass1\ass1\back\obj\Debug\back.csprojResolveAssemblyReference.cache
+C:\Users\16017131\Downloads\16017131-Andre de Villiers-programming assigmnet1 1\16017131-Andre de Villiers-programming assigmnet1 1\16017131-Andre de Villiers-programming assigmnet1 1\ass1\ass1\back\obj\Debug\back.csprojResolveAssemblyReference.cache
+C:\Users\16017131\Downloads\16017131-Andre de Villiers-programming assigmnet1 1\16017131-Andre de Villiers-programming assigmnet1 1\16017131-Andre de Villiers-programming assigmnet1 1\ass1\ass1\back\obj\Debug\back.dll
+C:\Users\16017131\Downloads\16017131-Andre de Villiers-programming assigmnet1 1\16017131-Andre de Villiers-programming assigmnet1 1\16017131-Andre de Villiers-programming assigmnet1 1\ass1\ass1\back\obj\Debug\back.pdb
+C:\Users\16017131\Documents\Visual Studio 2015\Projects\assignmnet2\back\bin\Debug\back.dll
+C:\Users\16017131\Documents\Visual Studio 2015\Projects\assignmnet2\back\bin\Debug\back.pdb
+C:\Users\16017131\Documents\Visual Studio 2015\Projects\assignmnet2\back\obj\Debug\back.csprojResolveAssemblyReference.cache
+C:\Users\16017131\Documents\Visual Studio 2015\Projects\assignmnet2\back\obj\Debug\back.dll
+C:\Users\16017131\Documents\Visual Studio 2015\Projects\assignmnet2\back\obj\Debug\back.pdb
+C:\Users\16017131\Documents\Visual Studio 2015\Projects\assignmnet2\assignmnet2\back\bin\Debug\back.dll
+C:\Users\16017131\Documents\Visual Studio 2015\Projects\assignmnet2\assignmnet2\back\bin\Debug\back.pdb
+C:\Users\16017131\Documents\Visual Studio 2015\Projects\assignmnet2\assignmnet2\back\obj\Debug\back.csprojResolveAssemblyReference.cache
+C:\Users\16017131\Documents\Visual Studio 2015\Projects\assignmnet2\assignmnet2\back\obj\Debug\back.dll
+C:\Users\16017131\Documents\Visual Studio 2015\Projects\assignmnet2\assignmnet2\back\obj\Debug\back.pdb
+C:\Users\16017131\Downloads\assignmnet2\assignmnet2\assignmnet2\back\bin\Debug\back.dll
+C:\Users\16017131\Downloads\assignmnet2\assignmnet2\assignmnet2\back\bin\Debug\back.pdb
+C:\Users\16017131\Downloads\assignmnet2\assignmnet2\assignmnet2\back\obj\Debug\back.csprojResolveAssemblyReference.cache
+C:\Users\16017131\Downloads\assignmnet2\assignmnet2\assignmnet2\back\obj\Debug\back.dll
+C:\Users\16017131\Downloads\assignmnet2\assignmnet2\assignmnet2\back\obj\Debug\back.pdb
+C:\Users\anton\OneDrive\Documents\assignmnet2\assignmnet2\assignmnet2\assignmnet2\back\bin\Debug\back.dll
+C:\Users\anton\OneDrive\Documents\assignmnet2\assignmnet2\assignmnet2\assignmnet2\back\bin\Debug\back.pdb
+C:\Users\anton\OneDrive\Documents\assignmnet2\assignmnet2\assignmnet2\assignmnet2\back\obj\Debug\back.csprojResolveAssemblyReference.cache
+C:\Users\anton\OneDrive\Documents\assignmnet2\assignmnet2\assignmnet2\assignmnet2\back\obj\Debug\back.csproj.CoreCompileInputs.cache
+C:\Users\anton\OneDrive\Documents\assignmnet2\assignmnet2\assignmnet2\assignmnet2\back\obj\Debug\back.dll
+C:\Users\anton\OneDrive\Documents\assignmnet2\assignmnet2\assignmnet2\assignmnet2\back\obj\Debug\back.pdb
+C:\Users\anton\OneDrive\Documents\assignmnet2\assignmnet2\assignmnet2\assignmnet2\back\bin\Debug\back.dll.config
+C:\Users\anton\Desktop\hacking hacking hacking\assignmnet3\assignmnet2\assignmnet2\assignmnet2\back\bin\Debug\back.dll.config
+C:\Users\anton\Desktop\hacking hacking hacking\assignmnet3\assignmnet2\assignmnet2\assignmnet2\back\bin\Debug\back.dll
+C:\Users\anton\Desktop\hacking hacking hacking\assignmnet3\assignmnet2\assignmnet2\assignmnet2\back\bin\Debug\back.pdb
+C:\Users\anton\Desktop\hacking hacking hacking\assignmnet3\assignmnet2\assignmnet2\assignmnet2\back\obj\Debug\back.csprojResolveAssemblyReference.cache
+C:\Users\anton\Desktop\hacking hacking hacking\assignmnet3\assignmnet2\assignmnet2\assignmnet2\back\obj\Debug\back.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\hacking hacking hacking\assignmnet3\assignmnet2\assignmnet2\assignmnet2\back\obj\Debug\back.dll
+C:\Users\anton\Desktop\hacking hacking hacking\assignmnet3\assignmnet2\assignmnet2\assignmnet2\back\obj\Debug\back.pdb
+C:\Users\16017131\Desktop\assignmnet3\back\obj\Debug\back.csprojResolveAssemblyReference.cache
+C:\Users\16017131\Desktop\assignmnet3\back\obj\Debug\back.dll
+C:\Users\16017131\Desktop\assignmnet3\back\obj\Debug\back.pdb
+C:\Users\16017131\Desktop\assignmnet3\back\bin\Debug\back.dll.config
+C:\Users\16017131\Desktop\assignmnet3\back\bin\Debug\back.dll
+C:\Users\16017131\Desktop\assignmnet3\back\bin\Debug\back.pdb
+F:\the final cut2\programming POE- Documentation - Andre de Viliers\Assignment 3\Assignmnet3\assignmnet3\back\bin\Debug\back.dll.config
+F:\the final cut2\programming POE- Documentation - Andre de Viliers\Assignment 3\Assignmnet3\assignmnet3\back\bin\Debug\back.dll
+F:\the final cut2\programming POE- Documentation - Andre de Viliers\Assignment 3\Assignmnet3\assignmnet3\back\bin\Debug\back.pdb
+F:\the final cut2\programming POE- Documentation - Andre de Viliers\Assignment 3\Assignmnet3\assignmnet3\back\obj\Debug\back.csprojResolveAssemblyReference.cache
+F:\the final cut2\programming POE- Documentation - Andre de Viliers\Assignment 3\Assignmnet3\assignmnet3\back\obj\Debug\back.csproj.CoreCompileInputs.cache
+F:\the final cut2\programming POE- Documentation - Andre de Viliers\Assignment 3\Assignmnet3\assignmnet3\back\obj\Debug\back.dll
+F:\the final cut2\programming POE- Documentation - Andre de Viliers\Assignment 3\Assignmnet3\assignmnet3\back\obj\Debug\back.pdb
+C:\Users\andre\Documents\PROG 2B POE-16017131- Andre de Viliers\Assignment 3\Assignmnet3\assignmnet3\back\bin\Debug\back.dll.config
+C:\Users\andre\Documents\PROG 2B POE-16017131- Andre de Viliers\Assignment 3\Assignmnet3\assignmnet3\back\bin\Debug\back.dll
+C:\Users\andre\Documents\PROG 2B POE-16017131- Andre de Viliers\Assignment 3\Assignmnet3\assignmnet3\back\bin\Debug\back.pdb
+C:\Users\andre\Documents\PROG 2B POE-16017131- Andre de Viliers\Assignment 3\Assignmnet3\assignmnet3\back\obj\Debug\back.csprojResolveAssemblyReference.cache
+C:\Users\andre\Documents\PROG 2B POE-16017131- Andre de Viliers\Assignment 3\Assignmnet3\assignmnet3\back\obj\Debug\back.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\PROG 2B POE-16017131- Andre de Viliers\Assignment 3\Assignmnet3\assignmnet3\back\obj\Debug\back.dll
+C:\Users\andre\Documents\PROG 2B POE-16017131- Andre de Viliers\Assignment 3\Assignmnet3\assignmnet3\back\obj\Debug\back.pdb
+C:\Users\andre\source\repos\POE5\back\bin\Debug\back.dll.config
+C:\Users\andre\source\repos\POE5\back\bin\Debug\back.dll
+C:\Users\andre\source\repos\POE5\back\bin\Debug\back.pdb
+C:\Users\andre\source\repos\POE5\back\obj\Debug\back.csprojResolveAssemblyReference.cache
+C:\Users\andre\source\repos\POE5\back\obj\Debug\back.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\POE5\back\obj\Debug\back.dll
+C:\Users\andre\source\repos\POE5\back\obj\Debug\back.pdb
+C:\Users\andre\Desktop\POE5\back\bin\Debug\back.dll.config
+C:\Users\andre\Desktop\POE5\back\bin\Debug\back.dll
+C:\Users\andre\Desktop\POE5\back\bin\Debug\back.pdb
+C:\Users\andre\Desktop\POE5\back\obj\Debug\back.csprojResolveAssemblyReference.cache
+C:\Users\andre\Desktop\POE5\back\obj\Debug\back.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\POE5\back\obj\Debug\back.dll
+C:\Users\andre\Desktop\POE5\back\obj\Debug\back.pdb
+C:\Users\andre\source\repos\WindowsFormsApp1\back\bin\Debug\back.dll.config
+C:\Users\andre\source\repos\WindowsFormsApp1\back\bin\Debug\back.dll
+C:\Users\andre\source\repos\WindowsFormsApp1\back\bin\Debug\back.pdb
+C:\Users\andre\source\repos\WindowsFormsApp1\back\obj\Debug\back.csprojAssemblyReference.cache
+C:\Users\andre\source\repos\WindowsFormsApp1\back\obj\Debug\back.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\WindowsFormsApp1\back\obj\Debug\back.dll
+C:\Users\andre\source\repos\WindowsFormsApp1\back\obj\Debug\back.pdb
+E:\WindowsFormsApp1\back\bin\Debug\back.dll.config
+E:\WindowsFormsApp1\back\bin\Debug\back.dll
+E:\WindowsFormsApp1\back\bin\Debug\back.pdb
+E:\WindowsFormsApp1\back\obj\Debug\back.csprojAssemblyReference.cache
+E:\WindowsFormsApp1\back\obj\Debug\back.csproj.CoreCompileInputs.cache
+E:\WindowsFormsApp1\back\obj\Debug\back.dll
+E:\WindowsFormsApp1\back\obj\Debug\back.pdb
+C:\Users\andre\Documents\chocAdminSide\WindowsFormsApp1\back\bin\Debug\back.dll.config
+C:\Users\andre\Documents\chocAdminSide\WindowsFormsApp1\back\bin\Debug\back.dll
+C:\Users\andre\Documents\chocAdminSide\WindowsFormsApp1\back\bin\Debug\back.pdb
+C:\Users\andre\Documents\chocAdminSide\WindowsFormsApp1\back\obj\Debug\back.csprojAssemblyReference.cache
+C:\Users\andre\Documents\chocAdminSide\WindowsFormsApp1\back\obj\Debug\back.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\chocAdminSide\WindowsFormsApp1\back\obj\Debug\back.dll
+C:\Users\andre\Documents\chocAdminSide\WindowsFormsApp1\back\obj\Debug\back.pdb
+C:\Users\andre\Documents\sql capable dv clock in\WebApplication2\back\bin\Debug\back.dll.config
+C:\Users\andre\Documents\sql capable dv clock in\WebApplication2\back\bin\Debug\back.dll
+C:\Users\andre\Documents\sql capable dv clock in\WebApplication2\back\bin\Debug\back.pdb
+C:\Users\andre\Documents\sql capable dv clock in\WebApplication2\back\obj\Debug\back.csprojAssemblyReference.cache
+C:\Users\andre\Documents\sql capable dv clock in\WebApplication2\back\obj\Debug\back.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\sql capable dv clock in\WebApplication2\back\obj\Debug\back.dll
+C:\Users\andre\Documents\sql capable dv clock in\WebApplication2\back\obj\Debug\back.pdb

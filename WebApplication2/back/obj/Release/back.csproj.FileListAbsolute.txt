@@ -1,0 +1,7 @@
+C:\Users\andre\Documents\sql capable dv clock in\WebApplication2\back\bin\Release\back.dll.config
+C:\Users\andre\Documents\sql capable dv clock in\WebApplication2\back\bin\Release\back.dll
+C:\Users\andre\Documents\sql capable dv clock in\WebApplication2\back\bin\Release\back.pdb
+C:\Users\andre\Documents\sql capable dv clock in\WebApplication2\back\obj\Release\back.csprojAssemblyReference.cache
+C:\Users\andre\Documents\sql capable dv clock in\WebApplication2\back\obj\Release\back.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\sql capable dv clock in\WebApplication2\back\obj\Release\back.dll
+C:\Users\andre\Documents\sql capable dv clock in\WebApplication2\back\obj\Release\back.pdb
