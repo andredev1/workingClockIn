@@ -21,18 +21,21 @@ namespace WebApplication2.Controllers
         {
             this.configuration = config;
         }
-        public IActionResult Index()
+        public IActionResult Index(string firstName, string lastName, string personalIDnumber, string latitude, string longitude, string osName, string osVersion, string browserName, string browserVersion, string navigatorUserAgent, string navigatorAppVersion, string navigatorPlatform, string navigatorVendor, string dateTime)
         {
-            string ID = "EN569534";
-            string connectionstring = "Server=localhost\\MSSQLSERVER01;Database=master;Trusted_Connection=True;";
+            string ID = personalIDnumber;
+            string connectionstring = "Server=tcp:dv-server1234567.database.windows.net,1433;Initial Catalog=DVchoc;Persist Security Info=False;User ID=andredev1234567;Password=Kooler1234567;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
             SqlConnection connection = new SqlConnection(connectionstring);
             connection.Open();
             SqlCommand com = new SqlCommand("Select count(*) from tbl_ClockIn where fld_personalIDnumber='" + ID + "'", connection);
             var count = (int)com.ExecuteScalar();
             
-                ViewData["Message"] = count;
             
-            com = new SqlCommand("insert into tbl_ClockIn(fld_firstName,fld_lastName,fld_personalIDnumber,fld_osName,fld_osVersion,fld_browserName,fld_browserVersion,fld_navigatorUserAgent,fld_navigatorAppVersion,fld_navigatorPlatform,fld_navigatorVendor,fld_latitube,fld_longitude,fld_dateTime) values('penis', 'penis', '69', 'penis', 'penis', 'penis', 'penis', 'penis', 'penis', 'penis', 'penis', 'penis', 'penis', '2018-03-03'); ", connection);
+
+            com = new SqlCommand("insert into tbl_ClockIn(fld_firstName,fld_lastName,fld_personalIDnumber,fld_osName,fld_osVersion,fld_browserName,fld_browserVersion,fld_navigatorUserAgent,fld_navigatorAppVersion,fld_navigatorPlatform,fld_navigatorVendor,fld_latitube,fld_longitude,fld_dateTime) values('" + firstName + "', '" + lastName + "', '" + personalIDnumber + "', '" + osName + "', '" + osVersion + "', '" + browserName + "', '" + browserVersion + "', '" + navigatorUserAgent + "', '" + navigatorAppVersion + "', '" + navigatorPlatform + "', '" + navigatorVendor + "', '" + latitude + "', '" + longitude + "', '"+System.DateTime.Today+"'); ", connection);
+            com.ExecuteScalar();
+
+            com = new SqlCommand(" DELETE FROM tbl_ClockIn WHERE fld_firstName = '';", connection);
             com.ExecuteScalar();
             return View();
         }
@@ -44,17 +47,7 @@ namespace WebApplication2.Controllers
 
         public void NewRecord()
         {
-            string ID = "EN569534";
-            string connectionstring = "Server=localhost\\MSSQLSERVER01;Database=master;Trusted_Connection=True;";
-            SqlConnection connection = new SqlConnection(connectionstring);
-            connection.Open();
-            SqlCommand com = new SqlCommand("Select count(*) from tbl_ClockIn where fld_personalIDnumber='" + ID + "'", connection);
-            var count = (int)com.ExecuteScalar();
-
-            ViewData["Message"] = count;
-
-            com = new SqlCommand("insert into tbl_ClockIn(fld_firstName,fld_lastName,fld_personalIDnumber,fld_osName,fld_osVersion,fld_browserName,fld_browserVersion,fld_navigatorUserAgent,fld_navigatorAppVersion,fld_navigatorPlatform,fld_navigatorVendor,fld_latitube,fld_longitude,fld_dateTime) values('penis', 'penis', '69', 'penis', 'penis', 'penis', 'penis', 'penis', 'penis', 'penis', 'penis', 'penis', 'penis', '2018-03-03'); ", connection);
-            com.ExecuteScalar();
+            
         }
 
         public IActionResult SendData()
@@ -63,15 +56,14 @@ namespace WebApplication2.Controllers
             return View();
         }
 
-            public IActionResult About(string latitude, string longitude, string osName, string osVersion, string browserName, string browserVersion, string navigatorUserAgent, string navigatorAppVersion, string navigatorPlatform, string navigatorVendor)
+            public IActionResult About(string firstName, string lastName, string personalIDnumber, string latitude, string longitude, string osName, string osVersion, string browserName, string browserVersion, string navigatorUserAgent, string navigatorAppVersion, string navigatorPlatform, string navigatorVendor, string dateTime)
         {
             
-            string connectionstring = "Server=localhost\\MSSQLSERVER01;Database=master;Trusted_Connection=True;";
+            string connectionstring = "Server=tcp:dv-server1234567.database.windows.net,1433;Initial Catalog=DVchoc;Persist Security Info=False;User ID=andredev1234567;Password=Kooler1234567;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
             SqlConnection connection = new SqlConnection(connectionstring);
             connection.Open();
-            SqlCommand com = new SqlCommand("insert into tbl_ClockIn(fld_firstName,fld_lastName,fld_personalIDnumber,fld_osName,fld_osVersion,fld_browserName,fld_browserVersion,fld_navigatorUserAgent,fld_navigatorAppVersion,fld_navigatorPlatform,fld_navigatorVendor,fld_latitube,fld_longitude,fld_dateTime) values('', '', '', '"+osName+ "', '" + osVersion + "', '" + browserName + "', '" + browserVersion + "', '" + navigatorUserAgent + "', '" + navigatorAppVersion + "', '" + navigatorPlatform + "', '" + navigatorVendor + "', '" + latitude + "', '" + longitude+"', '"+"'); ", connection);
+            SqlCommand com = new SqlCommand("insert into tbl_ClockIn(fld_firstName,fld_lastName,fld_personalIDnumber,fld_osName,fld_osVersion,fld_browserName,fld_browserVersion,fld_navigatorUserAgent,fld_navigatorAppVersion,fld_navigatorPlatform,fld_navigatorVendor,fld_latitube,fld_longitude,fld_dateTime) values('"+firstName+"', '"+lastName+"', '"+personalIDnumber+"', '"+osName+ "', '" + osVersion + "', '" + browserName + "', '" + browserVersion + "', '" + navigatorUserAgent + "', '" + navigatorAppVersion + "', '" + navigatorPlatform + "', '" + navigatorVendor + "', '" + latitude + "', '" + longitude+"', '"+ System.DateTime.Today + "'); ", connection);
             com.ExecuteScalar();
-            ViewData["Message"] = com.ExecuteScalar()+"it worked";
 
             return View();
         }
