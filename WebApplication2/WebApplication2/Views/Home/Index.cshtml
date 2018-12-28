@@ -1,60 +1,8 @@
 ﻿@{
     ViewData["Title"] = "Clock In";
 }
-@ViewData["Message"]
-
-<form class="login-form" asp-controller="Home" asp-action="About" method="POST">
-    <input type="text" name="firstName"  placeholder="first name" />
-    <input type="text" name="lastName"  placeholder="last name">
-    <input type="text" name="personalIDnumber" placeholder="ID or passport number">
-    <input type="hidden" name="latitude"  value="fsdafasdfasdfasdfasfasfd">
-    <input type="hidden" name="longitude"  value="fsdafasdfasdfasdfasfasfd">
-    <input type="hidden" name="osName"  value="fsdafasdfasdfasdfasfasfd">
-    <input type="hidden" name="osVersion"  value="fsdafasdfasdfasdfasfasfd">
-    <input type="hidden" name="browserName"  value="fsdafasdfasdfasdfasfasfd">
-    <input type="hidden" name="browserVersion"  value="fsdafasdfasdfasdfasfasfd">
-    <input type="hidden" name="navigatorUserAgent"  value="fsdafasdfasdfasdfasfasfd">
-    <input type="hidden" name="navigatorAppVersion"  value="fsdafasdfasdfasdfasfasfd">
-    <input type="hidden" name="navigatorPlatform"  value="fsdafasdfasdfasdfasfasfd">
-    <input type="hidden" name="navigatorVendor"  value="fsdafasdfasdfasdfasfasfd">
-    <input type="hidden" name="dateTime"  value="fsdafasdfasdfasdfasfasfd">
-
-    <input type="submit" value="Clock In/Clock out" />
-</form>
-
-
-
-
-
-<p id="demo"></p>
-
-<script>
-    var x = document.getElementById("demo");
-
-    function getLocation() {
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(showPosition);
-        } else {
-            x.innerHTML = "Geolocation is not supported by this browser.";
-        }
-    }
-
-    function showPosition(position) {
-        var currentdate = new Date();
-        var datetime = " currentdate.getDate() + " / "
-            + (currentdate.getMonth() + 1) + "/"
-            + currentdate.getFullYear() + " "
-            + currentdate.getHours() + ":"
-            + currentdate.getMinutes() + ":"
-            + currentdate.getSeconds();
-        x.innerHTML = "Latitude: " + position.coords.latitude +
-            "<br>Longitude: " + position.coords.longitude + datetime;
-    }
-
-
-</script>
-
 <div id="log"></div>
+<p id="demo"></p>
 
 <script>
     (function () {
@@ -147,11 +95,12 @@
         debug += 'navigator.vendor = ' + navigator.vendor + '<br/>';
 
         document.getElementById('log').innerHTML = debug;
-        document.getElementById('log').innerHTML = "";
 
         var x = document.getElementById("demo");
-        
-        
+
+        getLocation();
+
+
 
         function getLocation() {
             if (navigator.geolocation) {
@@ -164,11 +113,63 @@
         function showPosition(position) {
             x.innerHTML = "Latitude: " + position.coords.latitude +
                 "<br>Longitude: " + position.coords.longitude;
-        }
-        
+        };
         
     }());
 </script>
+
+<form class="login-form" asp-controller="Home" asp-action="About" method="POST">
+    <input type="text" name="firstName" placeholder="first name" />
+    <input type="text" name="lastName" placeholder="last name">
+    <input type="text" name="personalIDnumber" value=>
+    <input type="hidden" name="latitude" value="fsdafasdfasdfasdfasfasfd">
+    <input type="hidden" name="longitude" value="fsdafasdfasdfasdfasfasfd">
+    <input type="hidden" name="osName" value="fsdafasdfasdfasdfasfasfd">
+    <input type="hidden" name="osVersion" value="fsdafasdfasdfasdfasfasfd">
+    <input type="hidden" name="browserName" value="fsdafasdfasdfasdfasfasfd">
+    <input type="hidden" name="browserVersion" value="fsdafasdfasdfasdfasfasfd">
+    <input type="hidden" name="navigatorUserAgent" value="fsdafasdfasdfasdfasfasfd">
+    <input type="hidden" name="navigatorAppVersion" value="fsdafasdfasdfasdfasfasfd">
+    <input type="hidden" name="navigatorPlatform" value="fsdafasdfasdfasdfasfasfd">
+    <input type="hidden" name="navigatorVendor" value="fsdafasdfasdfasdfasfasfd">
+    <input type="hidden" name="dateTime" value="fsdafasdfasdfasdfasfasfd">
+
+    <input type="submit" value="Clock In/Clock out" />
+</form>
+
+
+
+
+
+
+
+<script>
+    var x = document.getElementById("demo");
+
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+            x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+    }
+
+    function showPosition(position) {
+        var currentdate = new Date();
+        var datetime = " currentdate.getDate() + " / "
+            + (currentdate.getMonth() + 1) + "/"
+            + currentdate.getFullYear() + " "
+            + currentdate.getHours() + ":"
+            + currentdate.getMinutes() + ":"
+            + currentdate.getSeconds();
+        x.innerHTML = "Latitude: " + position.coords.latitude +
+            "<br>Longitude: " + position.coords.longitude + datetime;
+    }
+
+
+</script>
+
+
 
 
 
