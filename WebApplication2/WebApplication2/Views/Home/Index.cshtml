@@ -99,8 +99,27 @@
         var x = document.getElementById("demo");
 
         getLocation();
+            $(function (){
+                $('#btnSend').click(function () {
+                    var product = { Name: 'gfreelancer' }
+                    $.ajax({
+                        type: "POST",
+                        contentType: "application/json; charset=utf8",
+                        data: "{product:" + JSON.stringify(product) + "}",
+                        url: "/Home/GetData",
+                        success: function (data) {
+                            alert("product name: " + data);
+                        },
+                        error: function (result) {
+                            alert("Something went wrong");
+                        }
+                    });
+                })
+            });
 
-
+        document.getElementById('log').innerHTML = "";
+        x = "";
+    
 
         function getLocation() {
             if (navigator.geolocation) {
@@ -113,15 +132,18 @@
         function showPosition(position) {
             x.innerHTML = "Latitude: " + position.coords.latitude +
                 "<br>Longitude: " + position.coords.longitude;
-        };
+        }
         
+
+
+
     }());
 </script>
-
+<img src="~/images/dvchoc.png" alt="dvclockin" />
 <form class="login-form" asp-controller="Home" asp-action="About" method="POST">
     <input type="text" name="firstName" placeholder="first name" />
     <input type="text" name="lastName" placeholder="last name">
-    <input type="text" name="personalIDnumber" value=>
+    <input type="text" name="personalIDnumber" placeholder="ID/password number">
     <input type="hidden" name="latitude" value="fsdafasdfasdfasdfasfasfd">
     <input type="hidden" name="longitude" value="fsdafasdfasdfasdfasfasfd">
     <input type="hidden" name="osName" value="fsdafasdfasdfasdfasfasfd">
@@ -136,8 +158,22 @@
 
     <input type="submit" value="Clock In/Clock out" />
 </form>
+<!--
+<div class="row">
+    <button id="locationButton" type="button" class="btn btn-default" onclick="getLocation()">Use Actual Location</button>
+</div>
+    -->
+<script type="text/javascript">
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(useLocation);
+        }
+    };
 
-
+    function useLocation(position) {
+        window.location.replace('?longitude=' + position.coords.longitude + '&latitude=' + position.coords.latitude);
+    };
+</script>
 
 
 
@@ -152,7 +188,10 @@
         } else {
             x.innerHTML = "Geolocation is not supported by this browser.";
         }
-    }
+
+       
+}
+    
 
     function showPosition(position) {
         var currentdate = new Date();
